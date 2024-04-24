@@ -1,0 +1,5 @@
+bg.codexio.springframework.boot.FilterJsonAutoConfiguration
+bg.codexio.springframework.boot.FilterJsonArgumentResolverConfiguration
+bg.codexio.springframework.boot.PrimaryKeyProviderAutoConfiguration
+bg.codexio.springframework.boot.SwaggerAutoConfiguration
+bg.codexio.springframework.boot.DialectAutoConfiguration
