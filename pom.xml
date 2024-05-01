@@ -11,14 +11,39 @@
 
     <groupId>bg.codexio.springframework.boot</groupId>
     <artifactId>spring-boot-starter-requery</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
 
     <name>Codexio Ltd. Spring Boot starter for Unified Request to Query resolver</name>
     <description>Spring Boot starter for Unified Request to Query resolver</description>
+    <url>https://github.com/CodexioLtd/spring-boot-starter-requery</url>
+
+    <licenses>
+        <license>
+            <name>The Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+
+    <developers>
+        <developer>
+            <name>Codexio Team</name>
+            <email>info@codexio.bg</email>
+            <organization>Codexio Ltd.</organization>
+            <organizationUrl>https://codexio.bg</organizationUrl>
+        </developer>
+    </developers>
+
+    <scm>
+        <connection>scm:git:git://github.com/CodexioLtd/spring-boot-starter-requery.git</connection>
+        <developerConnection>scm:git:ssh://github.com:CodexioLtd/spring-boot-starter-requery.git</developerConnection>
+        <url>https://github.com/CodexioLtd/spring-boot-starter-requery/tree/master</url>
+    </scm>
 
     <properties>
         <java.version>21</java.version>
-        <codexio.requery.version>0.0.1-SNAPSHOT</codexio.requery.version>
+        <codexio.requery.version>1.0.0</codexio.requery.version>
 
         <maven.compiler.version>3.12.1</maven.compiler.version>
         <nexus.plugin.version>1.6.13</nexus.plugin.version>
