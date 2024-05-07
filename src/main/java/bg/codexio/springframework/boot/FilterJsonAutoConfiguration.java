@@ -18,13 +18,11 @@ public class FilterJsonAutoConfiguration {
     }
 
     @Bean
-    @ConditionalOnMissingBean
     public FilterJsonTypeConverter filterJsonTypeConverter() {
         return new FilterJsonTypeConverterImpl();
     }
 
     @Bean
-    @ConditionalOnMissingBean
     public FilterJsonArgumentResolver filterJsonArgumentResolver(
             ObjectMapper objectMapper,
             FilterJsonTypeConverter converter
