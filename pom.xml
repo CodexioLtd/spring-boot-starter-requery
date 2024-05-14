@@ -5,7 +5,7 @@
 
     <groupId>bg.codexio.springframework.boot</groupId>
     <artifactId>spring-boot-starter-requery</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Codexio Ltd. Spring Boot starter for Unified Request to Query resolver</name>
@@ -36,7 +36,7 @@
 
     <properties>
         <java.version>21</java.version>
-        <codexio.requery.version>1.0.3-SNAPSHOT</codexio.requery.version>
+        <codexio.requery.version>1.0.5-SNAPSHOT</codexio.requery.version>
 
         <maven.compiler.version>3.12.1</maven.compiler.version>
         <nexus.plugin.version>1.6.13</nexus.plugin.version>
