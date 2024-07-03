@@ -3,3 +3,4 @@ bg.codexio.springframework.boot.FilterJsonArgumentResolverConfiguration
 bg.codexio.springframework.boot.PrimaryKeyProviderAutoConfiguration
 bg.codexio.springframework.boot.SwaggerAutoConfiguration
 bg.codexio.springframework.boot.DialectAutoConfiguration
+bg.codexio.springframework.data.jpa.requery.config.FilterJsonTypeConversionConfiguration
