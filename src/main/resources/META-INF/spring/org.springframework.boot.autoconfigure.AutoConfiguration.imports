@@ -1,4 +1,3 @@
-bg.codexio.springframework.data.jpa.requery.adapter.JsonHttpFilterAdapter
 bg.codexio.springframework.boot.FilterJsonAutoConfiguration
 bg.codexio.springframework.boot.FilterJsonArgumentResolverConfiguration
 bg.codexio.springframework.boot.PrimaryKeyProviderAutoConfiguration

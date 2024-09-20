@@ -1,6 +1,7 @@
 package bg.codexio.springframework.boot;
 
 import bg.codexio.springframework.data.jpa.requery.adapter.HttpFilterAdapter;
+import bg.codexio.springframework.data.jpa.requery.adapter.JsonHttpFilterAdapter;
 import bg.codexio.springframework.data.jpa.requery.config.FilterJsonTypeConverter;
 import bg.codexio.springframework.data.jpa.requery.config.FilterJsonTypeConverterImpl;
 import bg.codexio.springframework.data.jpa.requery.resolver.FilterJsonArgumentResolver;
@@ -20,6 +21,11 @@ public class FilterJsonAutoConfiguration {
     @ConditionalOnMissingBean
     public ObjectMapper objectMapper() {
         return new ObjectMapper();
+    }
+
+    @Bean
+    public HttpFilterAdapter httpFilterAdapter() {
+        return new JsonHttpFilterAdapter(objectMapper());
     }
 
     @Bean
