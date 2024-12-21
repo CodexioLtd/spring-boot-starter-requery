@@ -55,7 +55,7 @@ and services.
 <dependency>
     <groupId>bg.codexio.springframework.boot</groupId>
     <artifactId>spring-boot-starter-requery</artifactId>
-    <version>1.0.3-SNAPSHOT</version>
+    <version>1.0.4</version>
 </dependency>
 ```
 
